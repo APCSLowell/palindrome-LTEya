@@ -5,8 +5,9 @@ public class Main {
 	public static void main(final String[] args) {
 		PalindromeChecker sim = new PalindromeChecker();
         	sim.tester();
-		public class Sketch extends PApplet {
-  public void setup()
+		
+	}
+	public void setup()
   {
     String lines[] = loadStrings("palindromes.txt");
     System.out.println("there are " + lines.length + " lines");
@@ -50,8 +51,6 @@ public class Main {
       for(int i=str.length()-1;i>=0;i--) sNew=sNew+str.substring(i,i+1);
       return sNew;
   }
-	}
-	
 
 }
 
